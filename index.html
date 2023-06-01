@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Adaptive Shop Website</title>
+ <style>
+  body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+  }
+  
+  header {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+  }
+
+  nav {
+    background-color: #333;
+   color: #ffffff;
+   padding: 10px;
+   text-align: center;
+  }
+
+  nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+  }
+
+  nav li {
+   display: inline-block;
+   margin: 0 10px;
+   color: #000000;
+  }
+
+  nav a {
+   color: #ffffff;
+   text-decoration: none;
+   padding: 5px;
+  }
+
+  main {
+   padding: 20px;
+   text-align: center;
+  }
+
+
+  section {
+   margin-bottom: 20px;
+   padding: 10px;
+   background-color: #ffffff;
+   color: #333;
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+  }
+
+  section div {
+   margin: 10px;
+   padding: 10px;
+   background-color: #fff;
+   border: 1px solid #ccc;
+   width: 300px;
+  }
+
+  section div img {
+   max-width: 100%;
+   height: auto;
+   border: 1px #000000;
+  }
+
+  section div h3 {
+   margin-top: 0;
+  }
+
+  footer {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+   header {
+    padding: 10px;
+   }
+
+   nav {
+    padding: 5px;
+   }
+
+   nav li {
+    display: block;
+    margin: 10px 0;
+   }
+
+   main {
+    padding: 10px;
+   }
+
+   section div {
+    width: 100%;
+   }
+
+   footer {
+    padding: 10px;
+   }
+  }
+ </style>
+</head>
+<body>
+ <header>
+  <h1>Super Apteka</h1>
+ </header>
+ <nav>
+  <ul>
+   <li><a href="#">Главная</a></li>
+   <li><a href="#">Магазин</a></li>
+   <li><a href="#">О нас</a></li>
+   <li><a href="#">Контакты</a></li>
+  </ul>
+ </nav>
+ <main>
+  <section>
+   <div>
+    <img src="https://vseapteki.ru/cropping/thumbnails/101/13405/tabletLarge_default/" alt="Product 1">
+    <h3>Аджисепт</h3>
+    <p>Порошок, банка, 50 г, для приготовления суспензии</p>
+    <button>Купить</button>
+   </div>
+   <div>
+    <img src="https://vseapteki.ru/cropping/thumbnails/101/5863/tabletLarge_default/" alt="Product 2">
+    <h3>Стрепсилс</h3>
+    <p>Таблетки, 10 шт, 10 мг, для приема внутрь</p>
+    <button>Купить</button>
+   </div>
+   <div>
+    <img src="https://vseapteki.ru/cropping/thumbnails/101/71199/tabletLarge_default/" alt="Product 3">
+    <h3>Пенталгин</h3>
+    <p>Таблетки, 12 шт, для внутреннего применения, в пленочной оболочке</p>
+    <button>Купить</button>
+   </div>
+   <div>
+    <img src="https://vseapteki.ru/cropping/thumbnails/101/60431/tabletLarge_default/" alt="Product 4">
+    <h3>Мезим Форте</h3>
+    <p>Таблетки, пачка, 20 шт, для приема внутрь, для взрослых</p>
+    <button>Купить</button>
+   </div>
+   <div>
+    <img src="https://vseapteki.ru/cropping/thumbnails/101/11071/tabletLarge_default/" alt="Product 5">
+    <h3>Аспирин</h3>
+    <p>Таблетки, 10 шт, 400+240 мг, шипучие</p>
+    <button>Купить</button>
+   </div>
+   <div>
+    <img src="https://vseapteki.ru/cropping/thumbnails/101/12491/tabletLarge_default/" alt="Product 6">
+    <h3>Черника Форте</h3>
+    <p>Таблетки, 150 шт, 250 мг</p>
+    <button>Купить</button>
+   </div>
+  </section>
+ </main>
+ <footer>
+  <p>Super Apteka &copy; 2023</p>
+ </footer>
+</body>
+</html>
